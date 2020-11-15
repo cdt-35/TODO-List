@@ -1,0 +1,54 @@
+body{
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+#to{
+	height: 35px;
+	width: 50%;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin: 0;
+	border:none;
+	outline: none;
+	color: white;
+	font-size: 120%;
+	background-color: #2E4053;
+}
+.btn_add{
+	margin: -45px;
+	border-style: none;
+	font-size: 120%;
+	cursor: pointer;
+	padding: 7.5px;
+	background-color: #17A589;
+}
+.btn_add:hover{
+	background-color: #48C9B0;
+}
+li button{
+	margin-left: 10px;
+	color: red;
+	border-style: none;
+	background:none;
+	cursor: pointer;
+	outline: none;
+}
+input[type='checkbutton']{
+	margin-right: 10px;
+}
+ul{
+	float:right;
+	clear: right;
+	padding: 0;
+	list-style: none;
+}
+#inc{
+	float: left;
+}
+#cmp{
+	float: right;
+}
+p{
+	font-size: 130%;
+	text-decoration: underline;
+}

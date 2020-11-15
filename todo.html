@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My TODO's</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <link rel="icon" href="https://img.icons8.com/fluent/48/000000/microsoft-todo-2019.png">
+</head>
+
+<body>
+    <h1>My TODO List</h1>
+
+    <form onsubmit="add(event);return false" action="#">
+        <input id='to' type="text" placeholder=" Add a task....">
+        <input class="btn_add" type="submit" value="Add">
+    </form>
+
+    <div id="inc">
+        <p>Incomplete Tasks</p>
+        <ul id="list">
+            
+        </ul>
+    </div>
+    <div id="cmp">
+        <p>Completed Tasks</p>
+        <ul id="ctask">
+            
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
