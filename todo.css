@@ -36,19 +36,38 @@ li button{
 input[type='checkbutton']{
 	margin-right: 10px;
 }
-ul{
+#ctask{
 	float:right;
 	clear: right;
 	padding: 0;
 	list-style: none;
 }
+#list{
+	float: left;
+	clear: left;
+	padding: 0;
+	list-style-type: none; 
+}
 #inc{
 	float: left;
+	border-right-style: solid;
+	margin-top: 10px;
+	width: 49%;
 }
 #cmp{
 	float: right;
+	width: 50%;
+	margin-top: 10px;
 }
-p{
+#inc p{
+	font-size: 130%;
+	margin: 0;
+	text-decoration: underline;
+	float: left;
+}
+#cmp p{
 	font-size: 130%;
 	text-decoration: underline;
+	float: right;
+	margin: 0;
 }
